@@ -1,0 +1,17 @@
+{
+  "params":
+  {
+    "local_server": "True",
+    "local_uri": "mysql://root:@localhost/thedebugger",
+    "prod_uri": "mysql://root:@localhost/thedebugger",
+    "fb_url": "https://facebook.com/thedebugger",
+    "tw_url": "https://twitter.com/thedebugger",
+    "gh_url": "https://github.com/thedebugger",
+    "blog_name": "The Debugger",
+    "tag_line": "A Blog liked by Debugger's",
+    "gmail-user": "user gmail",
+    "gmail-password": "gmail password",
+    "about_text": "Hi my name is Sumit. I study in SMIT 2nd Year. I am a good boy",
+    "no_of_post": 5
+  }
+}
