@@ -163,7 +163,7 @@ def contact():
         email = request.form.get('email')
         phone = request.form.get('phone')
         message = request.form.get('message')
-        entry = Contacts(name=name, phone_num=phone, msg=message, email=email, date=datetime.now())
+        entry = Contacts(name=name, phone_num=phone, mes=message, email=email, date=datetime.now())
         db.session.add(entry)
         db.session.commit()
         mail.send_message('New message from ' + name,
